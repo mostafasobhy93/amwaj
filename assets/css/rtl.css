@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+
+*:not(i) {
+    font-family: 'Cairo', sans-serif ;
+}
+html, body {
+	direction: rtl;
+	text-align: right;
+}
+h1,h2,h3,h4,h5,h6, .font-prata, .main-btn {
+	font-family: 'El Messiri', serif;
+}
+.main-btn:before {
+    right: 10px;
+	left: auto;
+}
+.main-btn:after {
+	left: -6px;
+	right: auto;
+}
+.dropdown .droplist {
+    right: 0;
+	left: auto;
+}
+.dropdown .droplist.lang, .dropdown .droplist.account-droplist {
+	left: 0;
+	right: auto;
+}
+header nav {
+	padding: 0 32px 0 15px;
+}
+header nav .links-list > ul .list-item {
+    margin-left: 30px;
+	margin-right: 15px;
+}
+header nav .links-list > ul .list-item:last-child {
+    margin-left: 0;
+}
+header nav .links-list {
+    margin-left: 0;
+	margin-right: auto;
+}
+header nav .links-list > ul .list-item .link:before {
+	right: 0;
+	left: auto;
+	transform: translate(calc(-1*(-100% - 10px)), -50%);
+}
+header nav .links-list > ul .list-item.dropdown .link i {
+	margin-right: 3px;
+	margin-left: 0;
+}
+header nav .links-list > ul .list-item.dropdown:hover i {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+header.sticky {
+	right: 0;
+	left: auto;
+}
+header nav .cart-drop, header nav .account-login {
+	margin-right: 20px;
+	margin-left: 0;
+}
+header nav .cart-drop .cart-link .count {
+	left: -10px;
+	right: auto;
+	top: -3px;
+}
+header nav .cart-drop .cart-menu {
+	left: -5px;
+    right: auto;
+}
+header nav .cart-drop .cart-menu .cart-item .cart-info {
+	margin-right: 15px;
+	margin-left: 0;
+}
+header nav .cart-drop .cart-menu .cart-item .cart-info .delete-item {
+	left: 0;
+	right: auto;
+}
+.main-slider .carousel-btn-block .carousel-btn.left-btn {
+	right: 0;
+	left: auto;
+}
+.main-slider .carousel-btn-block .carousel-btn.right-btn {
+	left: 0;
+	right: auto;
+}
+.main-slider .banner-slides .slide {
+	direction: rtl;
+}
+.myaccount-tab-menu a i {
+	margin-left: 5px;
+	margin-right: 0;
+}
+.sidebar-backdrop {
+	right: 0;
+	left: auto;
+}
+.products-section .product-card .card-btn {
+	right: 5%;
+	left: auto;
+}
+.about-section .about-img:before {
+    right: 0;
+	left: auto;
+}
+.about-section .about-img-right:before {
+    right: 5%;
+	left: auto;
+}
+.blog-section .blog-card:after {
+	right: 0;
+	left: auto;
+	background: linear-gradient(-180deg,rgba(40,40,40,0),#282828);
+}
+.blog-section .blog-card .card-inner {
+	right: 0;
+	left: auto;
+}
+.page-header .breadcrumbs li {
+    padding-right: 30px;
+	padding-left: 0;
+    margin-right: 8px;
+	margin-left: 0;
+}
+.page-header .breadcrumbs li:before {
+    right: 3px;
+	left: auto;
+	font-family: 'Roboto', sans-serif;
+}
+.page-header .breadcrumbs li:first-child {
+	padding-right: 0;
+	margin-right: 0;
+}
+.main-slider .banner-slides .slide {
+	background-position: right center;
+}
+footer .footer-social .social-list li {
+    margin-left: 10px;
+	margin-right: 0;
+}
+.about-section .about-img img {
+	transform: translateX(-10%);
+}
+.home-banner .banner-bg .banner-gradient {
+	right: 0;
+	left: auto;
+	background-image: linear-gradient(-90deg, #1F2236 0%, #1F223600 71%);
+}
+
+.owl-carousel .owl-stage-outer {
+	direction: ltr;
+}
+.bi-arrow-right::before {
+    content: "\f12f";
+}
+.bi-arrow-left::before {
+    content: "\f138";
+}
+.bi-chevron-right::before {
+    content: "\f284";
+}
+.bi-chevron-left::before {
+    content: "\f285";
+}
+
+@media (min-width: 1400px) {
+	.sidebar .sidebar-list .sub-menu {
+		-webkit-transform-origin: 100% 0 0;
+		transform-origin: 100% 0 0;
+		right: 100%;
+		left: auto;
+	}
+}
+
+@media (max-width: 1399px) {
+	.main-sidebar {
+		right: 0;
+		left: auto;
+		transform: translateX(100%);
+	}
+	.main-sidebar .toggle-sidebar {
+		right: 100%;
+		left: auto;
+		border-radius: 7px 0 0 7px;
+	}
+}
+
+@media (max-width: 1199px) {
+	header nav {
+		padding: 0 10px;
+	}
+}
+
+@media(max-width: 991px) {
+	header nav .links-list.nav-menu {
+		right: 0;
+		left: auto;
+	}
+	header nav .bars {
+		margin-right: 20px;
+		margin-left: 0;
+	}
+}
+
+@media(max-width: 767px) {
+	.about-section .about-img-right:before {
+		right: 10px;
+		left: auto;
+	}
+	.about-section .about-img img {
+		transform: translateX(0);
+	}
+}
